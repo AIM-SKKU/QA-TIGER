@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="Question-Aware Gaussian Experts for Audio-Visual Question Answering"/>
+  <meta property="og:description" content="QA-TIGER introduces a question-aware Gaussian expert model for audio-visual question answering, enhancing temporal alignment and multimodal reasoning for more accurate predictions."/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Question-Aware Gaussian Experts for Audio-Visual Question Answering</title>
+  <link rel="icon" type="image/x-icon" href="static/images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Question-Aware Gaussian Experts for Audio-Visual Question Answering</h1>
+            <div class="is-size-5 publication-authors">
+              <div style="color:#A40000; font-size: 36px; font-weight: bold;">
+                <b>CVPR 2025</b>
+              </div>
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://sites.google.com/view/redleafkim" target="_blank">Hongyeob Kim</a><sup>1*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://github.com/nanacoco419" target="_blank">Inyoung Jung</a><sup>1*</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://github.com/dayoonsuh" target="_blank">Dayoon Suh</a><sup>2</sup>,</span>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://github.com/zhangyj66" target="_blank">Youjia Zhang</a><sup>1</sup>,</span>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://sites.google.com/view/sangmin-lee/home" target="_blank">Sangmin Lee</a><sup>1</sup>,</span>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.csehong.com/" target="_blank">Sungeun Hong</a><sup>1†</sup>
+                  </span>
+                  </div>
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Sungkyunkwan University</span>
+                    <span class="author-block"><sup>2</sup>Purdue University</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                        </a>
+                      </span>
+                      <!-- ArXiv abstract Link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/abs/2503.04459" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                        </a>
+                      </span>
+                      <!-- Video Link -->
+                      <span class="link-block">
+                        <a href="" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon"><i class="fab fa-youtube"></i></span>
+                        <span>Video</span>
+                        </a>
+                      </span>
+                      <!-- Poster Link -->
+                      <span class="link-block">
+                        <a href="" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon"><i class="fas fa-image"></i></span>
+                        <span>Poster</span>
+                        </a>
+                      </span>
+                      <!-- Github link -->
+                      <span class="link-block">
+                        <a href="https://github.com/AIM-SKKU/QA-TIGER" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fab fa-github"></i>
+                        </span>
+                        <span>Code</span>
+                        </a>
+                    </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video> -->
+      <img src="static/images/teaser.png" alt="QA-TIGER Teaser Image">
+      <h2 class="subtitle has-text-justified">
+        This teaser illustrates the core idea of <b>QA-TIGER</b>, a novel framework for 
+        <b>Audio-Visual Question Answering (AVQA)</b>. Unlike existing methods, QA-TIGER 
+        explicitly integrates question information and models continuous temporal dynamics 
+        using a Gaussian-based weighting mechanism. By leveraging a <b>Mixture of Experts (MoE)</b>, 
+        it adaptively captures question-relevant audio-visual cues and improves temporal alignment.
+        The comparison demonstrates how QA-TIGER outperforms traditional uniform sampling 
+        and Top-K frame selection, leading to more accurate and context-aware predictions.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Audio-Visual Question Answering (AVQA) requires not only question-based multimodal reasoning but also precise temporal grounding to capture subtle dynamics for accurate prediction. 
+            However, existing methods mainly use question information implicitly, limiting focus on question-specific details. 
+            Furthermore, most studies rely on uniform frame sampling, which can miss key question-relevant frames. Although recent Top-K frame selection methods aim to address this, their discrete nature still overlooks fine-grained temporal details. 
+            This paper proposes QA-TIGER, a novel framework that explicitly incorporates question information and models continuous temporal dynamics. 
+            Our key idea is to use Gaussian-based modeling to adaptively focus on both consecutive and non-consecutive frames based on the question, while explicitly injecting question information and applying progressive refinement. 
+            We leverage a Mixture of Experts (MoE) to flexibly implement multiple Gaussian models, activating temporal experts specifically tailored to the question. 
+            Extensive experiments on multiple AVQA benchmarks show that QA-TIGER consistently achieves state-of-the-art performance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>Will be updated</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
