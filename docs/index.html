@@ -54,7 +54,7 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">Question-Aware Gaussian Experts for Audio-Visual Question Answering</h1>
             <div class="is-size-5 publication-authors">
-              <div style="color:#A40000; font-size: 36px; font-weight: bold;">
+              <div style="color:#2C3494; font-size: 36px; font-weight: bold;">
                 <b>CVPR 2025</b>
               </div>
               <!-- Paper authors -->
@@ -149,15 +149,15 @@
         </video>
         <!-- <img src="static/images/teaser1.png" alt="QA-TIGER Teaser Image">
         <img src="static/images/teaser2.png" alt="QA-TIGER Teaser Image"> -->
-        <h3 class="subtitle">Comparison with Other Temporal Sampling Methods in AVQA</h3> 
+        <h3 class="subtitle">Comparison with Other Temporal Sampling Methods in AVQA</h3>
         <h2 class="subtitle has-text-justified">
-          This video presents the core idea of <b>Question-Aware Temporal Integration Gaussian Experts for Reasoning (QA-TIGER)</b>, our novel framework for 
+          This video presents the core idea of <b>Question-Aware Temporal Integration Gaussian Experts for Reasoning (QA-TIGER)</b>, our novel framework for
           <b>Audio-Visual Question Answering (AVQA)</b>. It highlights key differences between QA-TIGER and traditional temporal sampling methods in AVQA.
           Unlike existing approaches that rely on <b>discrete</b> frame selection methods—such as uniform sampling or Top-K selection—QA-TIGER explicitly
-          integrates question information and models <b>continuous</b> temporal dynamics 
-          using a Gaussian-based weighting mechanism. By leveraging a <b>Mixture of Experts (MoE)</b>, 
+          integrates question information and models <b>continuous</b> temporal dynamics
+          using a Gaussian-based weighting mechanism. By leveraging a <b>Mixture of Experts (MoE)</b>,
           it adaptively captures question-relevant audio-visual cues and improves temporal alignment.
-          The comparison demonstrates how QA-TIGER outperforms traditional uniform sampling 
+          The comparison demonstrates how QA-TIGER outperforms traditional uniform sampling
           and Top-K frame selection, leading to more accurate and context-aware predictions.
         </h2>
       </div>
@@ -174,12 +174,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Audio-Visual Question Answering (AVQA) requires not only question-based multimodal reasoning but also precise temporal grounding to capture subtle dynamics for accurate prediction. 
-            However, existing methods mainly use question information implicitly, limiting focus on question-specific details. 
-            Furthermore, most studies rely on uniform frame sampling, which can miss key question-relevant frames. Although recent Top-K frame selection methods aim to address this, their discrete nature still overlooks fine-grained temporal details. 
-            This paper proposes QA-TIGER, a novel framework that explicitly incorporates question information and models continuous temporal dynamics. 
-            Our key idea is to use Gaussian-based modeling to adaptively focus on both consecutive and non-consecutive frames based on the question, while explicitly injecting question information and applying progressive refinement. 
-            We leverage a Mixture of Experts (MoE) to flexibly implement multiple Gaussian models, activating temporal experts specifically tailored to the question. 
+            Audio-Visual Question Answering (AVQA) requires not only question-based multimodal reasoning but also precise temporal grounding to capture subtle dynamics for accurate prediction.
+            However, existing methods mainly use question information implicitly, limiting focus on question-specific details.
+            Furthermore, most studies rely on uniform frame sampling, which can miss key question-relevant frames. Although recent Top-K frame selection methods aim to address this, their discrete nature still overlooks fine-grained temporal details.
+            This paper proposes QA-TIGER, a novel framework that explicitly incorporates question information and models continuous temporal dynamics.
+            Our key idea is to use Gaussian-based modeling to adaptively focus on both consecutive and non-consecutive frames based on the question, while explicitly injecting question information and applying progressive refinement.
+            We leverage a Mixture of Experts (MoE) to flexibly implement multiple Gaussian models, activating temporal experts specifically tailored to the question.
             Extensive experiments on multiple AVQA benchmarks show that QA-TIGER consistently achieves state-of-the-art performance.
           </p>
         </div>
@@ -196,7 +196,7 @@
     <div class="container has-text-centered">
       <h2 class="title">Overview</h2>
       <img src="static/images/main_figure.png" alt="QA-TIGER main figure">
-      <h3 class="subtitle">Overview of <b>Q</b>uestion-<b>A</b>ware <b>T</b>emporal <b>I</b>ntegration <b>G</b>aussian <b>E</b>xperts for <b>R</b>easoning</h3> 
+      <h3 class="subtitle">Overview of <b>Q</b>uestion-<b>A</b>ware <b>T</b>emporal <b>I</b>ntegration <b>G</b>aussian <b>E</b>xperts for <b>R</b>easoning</h3>
       <div class="content has-text-justified">
         <p>
           QA-TIGER first extracts visual features from video segments using a pretrained <b>CLIP image encoder</b> and audio features via a <b>VGGish model</b>,
@@ -238,7 +238,7 @@
     vertical-align: middle;
     white-space: nowrap;
   }
-  
+
 </style>
 
 <section class="hero is-small">
@@ -267,7 +267,7 @@
                     <th rowspan="2" style="text-align: center; vertical-align: middle;">Avg</th>
                 </tr>
                 <tr>
-                    <th style="text-align: center;">Count</th>
+                    <th style="text-align: center; border-right: none;">Count</th>
                     <th style="text-align: center;">Comp</th>
                     <th style="border-right: 1px solid #b8b8b8; text-align: center;">Avg</th>
                     <th style="text-align: center;">Count</th>
@@ -541,10 +541,10 @@
             </tbody>
         </table>
         </div>
-        <h3 class="subtitle"><b>MUSIC-AVQA</b></h3> 
+        <h3 class="subtitle"><b>MUSIC-AVQA</b></h3>
         <div class="content has-text-justified">
           <p>
-          <b>QA-TIGER</b> achieves the highest performance among all models, with an overall accuracy (77.62%), surpassing the previous best method, <b>TSPM</b> (76.79%). 
+          <b>QA-TIGER</b> achieves the highest performance among all models, with an overall accuracy (77.62%), surpassing the previous best method, <b>TSPM</b> (76.79%).
           Notably, our model shows strong performance in complex reasoning tasks, achieving 78.58% and 72.50% in <b>AV-Counting</b> and <b>AV-Local</b> categories respectively, surpassing previous methods.
         </p>
         <br>
@@ -564,7 +564,7 @@
               <th rowspan="3" style="text-align: center; vertical-align: middle;">Avg</th>
             </tr>
             <tr>
-              <th colspan="2" style="text-align: center; vertical-align: middle;">Count</th>
+              <th colspan="2" style="text-align: center; vertical-align: middle;border-right: none;">Count</th>
               <th colspan="2" style="text-align: center; vertical-align: middle;border-right: 1px solid #b8b8b8;">Comp</th>
               <th colspan="2" style="text-align: center; vertical-align: middle;">Count</th>
               <th colspan="2" style="text-align: center; vertical-align: middle;border-right: 1px solid #b8b8b8;">Local</th>
@@ -575,7 +575,7 @@
               <th colspan="2" style="text-align: center; vertical-align: middle;border-right: 1px solid #b8b8b8;">Temp</th>
             </tr>
             <tr>
-              <th style="text-align: center; vertical-align: middle;">H</th>
+              <th style="text-align: center; vertical-align: middle; border-right: none;">H</th>
               <th style="text-align: center; vertical-align: middle;">T</th>
               <th style="text-align: center; vertical-align: middle;">H</th>
               <th style="text-align: center; vertical-align: middle; border-right: 1px solid #b8b8b8;">T</th>
@@ -883,9 +883,9 @@
               <td><strong>67.99</strong></td>
             </tr>
           </tbody>
-        </table>        
+        </table>
     </div>
-    <h3 class="subtitle"><b>MUSIC-AVQA-R</b></h3> 
+    <h3 class="subtitle"><b>MUSIC-AVQA-R</b></h3>
     <div class="content has-text-justified">
       <p>
         Our method achieves 67.99% overall accuracy on the <b>MUSIC-AVQA-R</b> dataset across diverse question types,
@@ -1046,7 +1046,7 @@
           </tbody>
         </table>
       </div>
-      <h3 class="subtitle"><b>MUSIC-AVQA-v2.0</b></h3> 
+      <h3 class="subtitle"><b>MUSIC-AVQA-v2.0</b></h3>
       <div class="content has-text-justified">
         <p>
           <b>QA-TIGER</b> consistently outperforms existing models,
@@ -1060,7 +1060,7 @@
       <br>
       </div>
       </div>
-      
+
     </div>
   </div>
 </section>
@@ -1086,7 +1086,7 @@
           </p>
         </div>
       </div>
-      
+
       <!-- (a) Audio Question -->
       <div class="image-scroll-container" style="overflow-x: auto; overflow-y: hidden;">
         <div style="width: max-content;">
@@ -1106,7 +1106,7 @@
           </p>
         </div>
       </div>
-      
+
       <!-- (b) Visual Question -->
       <div class="image-scroll-container" style="overflow-x: auto; overflow-y: hidden;">
         <div style="width: max-content;">
@@ -1126,7 +1126,7 @@
           </p>
         </div>
       </div>
-      
+
       <!-- (c) Audio-Visual Question -->
       <div class="image-scroll-container" style="overflow-x: auto; overflow-y: hidden;">
         <div style="width: max-content;">
@@ -1159,13 +1159,13 @@
         <div class="content has-text-justified">
           <p>
             To validate the effectiveness of our <b>question-aware fusion</b> module, we performed <b>word-level visualizations</b>.
-            Additional supporting examples are provided in the <b>supplementary material</b>. 
+            Additional supporting examples are provided in the <b>supplementary material</b>.
             <br>
             <br>
           </p>
         </div>
       </div>
-      
+
       <!-- (a) Audio Question -->
       <div class="image-scroll-container" style="overflow-x: auto; overflow-y: hidden;">
         <div style="width: max-content;">
@@ -1176,11 +1176,10 @@
       <div class="container is-max-desktop">
         <div class="content has-text-justified">
           <p>
-             <b>question-aware fusion</b> module focuses on “instrument,” “right,” “left,” and “louder” to identify spatial
-             locations in <b>visual modality</b>. Meanwhile, it emphasizes
-             “louder” to analyze sound intensities in <b>audio modality</b>.
-             This complementary approach enables the model to tackle
-             the question effectively.
+             <b>Question-aware fusion</b> module balances visual and auditory cues to identify the <b>specific clarinet</b> but
+             produces the <b>first sound</b>. In the <b>visual modality</b>, attention focuses on "clarinet" and "first", using motion cues to detect active clarinets.
+             To compensate for visually occluded clarinets, the <b>audio modality</b> emphasizes "which," "clarinet," and "first," helping to highlight the
+             source of the initial sound in the figure.
             <br>
             <br>
           </p>
@@ -1198,7 +1197,7 @@
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>@article{hy2025qatiger,
-    title={Question-Aware Gaussian Experts for Audio-Visual Question Answering}, 
+    title={Question-Aware Gaussian Experts for Audio-Visual Question Answering},
     author={Hongyeob Kim and Inyoung Jung and Dayoon Suh and Youjia Zhang and Sangmin Lee and Sungeun Hong},
     journal={arXiv preprint arXiv:2503.04459},
     year={2025}
@@ -1227,7 +1226,7 @@
 </footer>
 
 <!-- Statcounter tracking code -->
-  
+
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
