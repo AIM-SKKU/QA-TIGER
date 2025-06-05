@@ -1,7 +1,7 @@
 # Question-Aware Gaussian Experts for Audio-Visual Question Answering (CVPR 2025, Highlight)
 Official repository for "Question-Aware Gaussian Experts for Audio-Visual Question Answering" in CVPR 2025.
 
-### [Paper]() | [arXiv](https://arxiv.org/abs/2503.04459) | [Project Page](https://aim-skku.github.io/QA-TIGER/)
+### [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_Question-Aware_Gaussian_Experts_for_Audio-Visual_Question_Answering_CVPR_2025_paper.pdf) | [Project Page](https://aim-skku.github.io/QA-TIGER/)
 
 > Authors: [Hongyeob Kim<sup>1*](https://redleaf-kim.github.io/), [Inyoung Jung<sup>1*](https://github.com/nanacoco419), [Dayoon Suh<sup>2</sup>](https://github.com/dayoonsuh), [Youjija Zhang<sup>1</sup>](https://zhangyj66.github.io/), [Sangmin Lee<sup>1](https://sites.google.com/view/sangmin-lee/home), [Sungeun Hong<sup>1</sup>&dagger;](https://www.csehong.com/) <br>
 > <sup>1</sup>[Sungkyunkwan University](https://www.skku.edu/eng/index.do), <sup>2</sup>[Purdue University](https://www.purdue.edu/)
@@ -38,7 +38,7 @@ pytorch2.4.0
     ```
     pip install -e .
     ```
-    
+
     - with uv
     ```
     uv sync
@@ -56,7 +56,7 @@ pytorch2.4.0
 4. **Feature extraction**
     - we follow the same protocol as TSPM for feature extraction. Please refer to [TSPM](https://github.com/GeWu-Lab/TSPM)
     - put the extracted features under [`./data/feats/`](./data/feats/)
-    
+
         ```
         data
         ┣ annots
@@ -92,10 +92,10 @@ pytorch2.4.0
 If you find this work useful, please consider citing it.
 
 ```
-@article{hy2025qatiger,
-    title={Question-Aware Gaussian Experts for Audio-Visual Question Answering}, 
+@inproceedings{kim2025qatiger,
+    title={Question-Aware Gaussian Experts for Audio-Visual Question Answering},
     author={Hongyeob Kim and Inyoung Jung and Dayoon Suh and Youjia Zhang and Sangmin Lee and Sungeun Hong},
-    journal={arXiv preprint arXiv:2503.04459},
+    booktitle={CVPR},
     year={2025}
 }
 ```
