@@ -3,7 +3,7 @@ Official repository for "Question-Aware Gaussian Experts for Audio-Visual Questi
 
 ### [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_Question-Aware_Gaussian_Experts_for_Audio-Visual_Question_Answering_CVPR_2025_paper.pdf) | [Project Page](https://aim-skku.github.io/QA-TIGER/)
 
-> Authors: [Hongyeob Kim<sup>1*](https://redleaf-kim.github.io/), [Inyoung Jung<sup>1*](https://github.com/nanacoco419), [Dayoon Suh<sup>2</sup>](https://github.com/dayoonsuh), [Youjija Zhang<sup>1</sup>](https://zhangyj66.github.io/), [Sangmin Lee<sup>1](https://sites.google.com/view/sangmin-lee/home), [Sungeun Hong<sup>1</sup>&dagger;](https://www.csehong.com/) <br>
+> Authors: [Hongyeob Kim<sup>1*](https://redleaf-kim.github.io/), [Inyoung Jung<sup>1*](https://nanacoco419.github.io/), [Dayoon Suh<sup>2</sup>](https://github.com/dayoonsuh), [Youjija Zhang<sup>1</sup>](https://youjia-zhang.github.io/), [Sangmin Lee<sup>1](https://sites.google.com/view/sangmin-lee/home), [Sungeun Hong<sup>1</sup>&dagger;](https://www.csehong.com/) <br>
 > <sup>1</sup>[Sungkyunkwan University](https://www.skku.edu/eng/index.do), <sup>2</sup>[Purdue University](https://www.purdue.edu/)
 
 <p align=center><img src="./images/main_figure.png" width="1024px"></p>
