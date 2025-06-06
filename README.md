@@ -1,9 +1,9 @@
-# Question-Aware Gaussian Experts for Audio-Visual Question Answering (CVPR 2025)
+# Question-Aware Gaussian Experts for Audio-Visual Question Answering (CVPR 2025, Highlight)
 Official repository for "Question-Aware Gaussian Experts for Audio-Visual Question Answering" in CVPR 2025.
 
-### [Paper]() | [arXiv](https://arxiv.org/abs/2503.04459) | [Project Page](https://aim-skku.github.io/QA-TIGER/)
+### [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_Question-Aware_Gaussian_Experts_for_Audio-Visual_Question_Answering_CVPR_2025_paper.pdf) | [Project Page](https://aim-skku.github.io/QA-TIGER/)
 
-> Authors: [Hongyeob Kim<sup>1*](https://github.com/redleaf-kim), [Inyoung Jung<sup>1*](https://github.com/nanacoco419), [Dayoon Suh<sup>2</sup>](https://github.com/dayoonsuh), [Sangmin Lee<sup>1](https://sites.google.com/view/sangmin-lee/home), [Sungeun Hong<sup>1</sup>&dagger;](https://www.csehong.com/) <br>
+> Authors: [Hongyeob Kim<sup>1*](https://redleaf-kim.github.io/), [Inyoung Jung<sup>1*](https://nanacoco419.github.io/), [Dayoon Suh<sup>2</sup>](https://github.com/dayoonsuh), [Youjija Zhang<sup>1</sup>](https://youjia-zhang.github.io/), [Sangmin Lee<sup>1](https://sites.google.com/view/sangmin-lee/home), [Sungeun Hong<sup>1</sup>&dagger;](https://www.csehong.com/) <br>
 > <sup>1</sup>[Sungkyunkwan University](https://www.skku.edu/eng/index.do), <sup>2</sup>[Purdue University](https://www.purdue.edu/)
 
 <p align=center><img src="./images/main_figure.png" width="1024px"></p>
@@ -39,6 +39,12 @@ pytorch2.4.0
     pip install -e .
     ```
 
+    - with uv
+    ```
+    uv sync
+    source .venv/bin/activate
+    ```
+
 2. **Prepare data**
     - you can find annotations in [`./data/annots/`](./data/annots/).
     - `notice`: for MUSIC-AVQA-v2.0, we asked the authors about the original split and pre-divided the dataset accordingly.
@@ -50,7 +56,7 @@ pytorch2.4.0
 4. **Feature extraction**
     - we follow the same protocol as TSPM for feature extraction. Please refer to [TSPM](https://github.com/GeWu-Lab/TSPM)
     - put the extracted features under [`./data/feats/`](./data/feats/)
-    
+
         ```
         data
         ┣ annots
@@ -78,7 +84,7 @@ pytorch2.4.0
 
 ### Checkpoints
 
-- will be uploaded soon
+- [QA-TIGER with ViT-L/14@336px](https://huggingface.co/redleaf-Kim/qa-tiger)
 
 
 ### Citation
@@ -86,7 +92,12 @@ pytorch2.4.0
 If you find this work useful, please consider citing it.
 
 ```
-coming soon!
+@inproceedings{kim2025qatiger,
+    title={Question-Aware Gaussian Experts for Audio-Visual Question Answering},
+    author={Hongyeob Kim and Inyoung Jung and Dayoon Suh and Youjia Zhang and Sangmin Lee and Sungeun Hong},
+    booktitle={CVPR},
+    year={2025}
+}
 ```
 
 ### Acknowledgement
